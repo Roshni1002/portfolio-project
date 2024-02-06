@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.jpg" class="logo">
+
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#Projects">Skills</a> </li>
+                    <li> <a href="#portfolio">Projects</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                    <i class="fas ri-close-line" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas ri-menu-line" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I am <span> Roshni </span> <br> Birla a Web Developer</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column1">
+                    <img src="profile grey.png" alt="">
+                </div>
+                <div class="about-column2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! My Name is Roshni and I love creating new things that live on internet.My interest in Web
+                        Development started back in 2022
+                        when I started to create new web designs based on HTML,CSS and JavaScript.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer/Coder</span><br>Developer</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Developer,Coder</li>
+                            <li><span>2021 - 2022</span><br>Intermship at Spark Foundation</li>
+                            <li><span>2020 - 2021</span><br>Learnt basics of Languages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Persuing B.Tech from OIST Bhopal</li>
+                            <li><span>2019</span><br>12th from Shree Balaji Academy,khargone</li>
+                            <li><span>2017</span><br>10th from Shree Balaji Academy,Khargone</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id ="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="project-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>Web Design</h2>
+                    <p> As a web developer, I specialize in developing dynamic and responsive websites that deliver
+                        seamless user experiences </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-crop-2-line"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact
+                        with when using a website, app, or other electronic device. UX refers to the entire interaction
+                        you have with a product, including how you feel about the interaction. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-apps-line"></i>
+                    <h2>Developer</h2>
+                    <p>As a developer, I am passionate about creating elegant and efficient solutions to complex
+                        problems</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>E-commerce site landing page </h3>
+                        <!-- <p>,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aliquam.</p> -->
+                        <a href="https://roshni1002.github.io/coffee-project/">
+                            <i class="ri-links-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <!-- <p>,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aliquam.</p> -->
+                        <a href="#">
+                            <i class="ri-links-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <!-- <p>,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aliquam.</p> -->
+                        <a href="#">
+                            <i class="ri-links-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-mail-send-fill"></i> roshnibirla17@gmail.com</p>
+                    <p> <i class="ri-phone-fill"></i>6263685405</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/roshni-birla-438566220/"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://github.com/Roshni1002"><i class="ri-github-fill"></i></a>
+                    </div>
+                    <a href="RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwq5y13mdH4fk6UL-Qju_6k54l1CanREvcHLncVdaDLb41bzyWUiz0H7oTd8hXeFvpu/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
